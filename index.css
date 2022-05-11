@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+:root{
+    --main-bg-color : #161616;
+    --second-color : #3dcfd3;
+    --third-color : #3dcbcf;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Mulish', sans-serif;
+}
+
+body{
+    background-color:var(--main-bg-color);
+}
+#navbar{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+} 
+#left-side{
+    display: flex;
+    align-items: center;
+
+}
+#linkitems{
+    display: flex;
+    list-style: none;
+    padding-left: 4em;
+}
+.linkitem{
+    padding: 1em;
+    color: white;
+    font-size: .8em;
+}
+.btn{
+    background-color: var(--second-color) ;
+    padding: .8em 3.1em;
+    font-weight: 800;
+    font-size: .8em;
+}
+#main{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 5em;
+}
+#image{
+    width: 50%;
+    padding-left: 10em;
+}
+#content{
+    width: 50%;
+    padding-right: 10em;
+    padding-top: 4rem;
+}
+#content h3{
+    font-size: 1.3em;
+    padding: 0;
+    color: var(--third-color);
+}
+#content h1{
+    font-size: 3rem;
+    color: #ffff;
+}
+#content h1 span{
+    color: var(--second-color);
+
+
+}
+#content p{
+    color: #ffff;
+    padding: 2em 0;
+    line-height: 1.5em ;
+    font-size: .8;
+}
+.btn2{
+    padding: .6em 2.8em ;
+    background: transparent;
+    color: var(--second-color);
+    border-color: var(--second-color);
+}
+
